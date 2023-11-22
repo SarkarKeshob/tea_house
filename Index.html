@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+
+    <!-- tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/82a85cd580.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="styles/custom_css.js"></script>
+</head>
+<body>
+   <header class="tea_width">
+        <!-- Banner Section -->
+
+        <div class="hero my-8" id="banner">
+            <div class="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
+              <div id="image">
+                <img src="images/banner.png" class="md:max-w-md" />
+                <div id="relative" class=" flex flex-col items-center gap-5 bg-white md:p-5 w-20 md:flex-row md:w-60 md:h-auto drop-shadow-md">
+                    <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                    <div id="content">
+                        <h4 class="text-title_color">5.00</h4>
+                        <p class="text-text_color">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <h1 class="text-4xl font-extrabold md:text-6xl lg:text-7xl text-title_color">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6 lg:w-2/3 text-text_color">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn ">Explore More</button>
+              </div>
+            </div>
+        </div>
+   </header>
+   
+   <main class="tea_width">
+    <!-- featured products -->
+    <section id="featured_products" class="text-center my-10 space-y-6">
+        <h2 class="text-title_color font-extrabold text-3xl md:text-4xl">Our Featured Products</h2>
+        <p class="text-text_color md:w-2/3 mx-0 md:mx-auto text-md">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+        <div id="card_container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-3 my-5">
+
+            <!-- card-1 -->
+            <div class="card  bg-base-100 shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title text-title_color font-extrabold">Milk Tea</h2>
+                  <p class="text-text_color">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card bg-base-100 shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title text-title_color font-extrabold">Black Tea</h2>
+                  <p class="text-text_color">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+
+            <!-- card-3 -->
+            <div class="card bg-base-100 shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title text-title_color font-extrabold">Lemon Tea</h2>
+                  <p class="text-text_color">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+
+            <!-- card-4 -->
+            <div class="card bg-base-100 shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title text-title_color font-extrabold">Green Tea</h2>
+                  <p class="text-text_color">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Great Tea section -->
+    <section id="display_tea" class="my-20 flex flex-col md:flex-row gap-7 ">
+        <div id="display_image" class=" flex-1 gap-7  grid grid-cols-1 md:grid-cols-2 ">
+            <div id="grid_1" class="row-span-1 rounded-lg h-32"></div>
+            <div id="grid_2" class="row-span-2 rounded-lg flex justify-center items-center"><img src="images/fresh-1.png" alt=""></div>
+            <div id="grid_3" class="row-span-2 rounded-lg flex justify-center items-center"><img src="images/fresh-2.png" alt=""></div>
+            <div id="grid_4" class="row-span-1 rounded-lg h-32"></div>
+        </div>
+
+        <div id="display_text" class="space-y-5 flex-1 ">
+            <div id="content_1">
+                <h2 class="text-title_color font-extrabold text-4xl md:w-2/3">Great Tea, Freshly Presented</h2>
+                <p class="text-text_color text-base">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            </div>
+            <div id="content_2">
+                <h4 class="text-title_color font-extrabold text-xl">Unique Taste</h4>
+                <p class="text-text_color">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            </div>
+            <div id="content_3">
+                <h6 class="text-title_color font-extrabold text-xl">Premium Quality</h6>
+                <p class="text-text_color">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- comment section -->
+    <section id="comments" class="my-20">
+        
+        <div id="comment_container" class=" text-white md:px-10 md:py-24 flex flex-col md:flex-row gap-10">
+            <div id="comment_left" class="mt-10 space-y-10 md:w-1/2">
+                <h1 class="font-extrabold text-3xl md:text-4xl">Meet Our Super Clients</h1>
+                <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="btn btn-primary">Show All</button>
+            </div>
+    
+            <div id="comment_right" class="bg-white h-fit md:py-5 rounded-lg md:px-10 space-y-4 relative w-fit md:w-2/5">
+                <img src="images/client.png" alt="" class="absolute -top-7 -left-7">
+                <p class="text-text_color">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h4 class="font-extrabold text-title_color">Ilham Yuda</h4>
+                <h6 class="text-text_color font-bold">Businessman</h6>
+            </div>
+        </div>
+        
+    </section>
+   </main>
+
+   <footer>
+    
+   </footer>
+</body>
+</html>

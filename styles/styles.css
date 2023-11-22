@@ -1,0 +1,83 @@
+/* Shared css */
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.tea_width{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+
+/* Header Start*/
+
+    /* Banner Section */
+        /* rating section */
+        #relative{
+            position: relative;
+            bottom:6rem;
+            left:1rem;
+            border-radius: 8px;
+        }
+        #content h4{
+                font-weight: 800;
+            }
+
+/* header end */
+
+/* main start */
+
+            /* featured section */
+            #card_container .card{
+                background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%);
+                border-radius: 8px;
+            }
+
+            /* great tea section */
+            #content_1{
+                margin-top: 2%;
+            }
+            #content_2{
+                margin: 5% 0;
+            }
+            #content_3{
+                margin-top: 5%;
+            }
+
+            #grid_1{
+                opacity: 0.1;
+                background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+            }
+
+            #grid_2{
+                background: rgba(230, 166, 35, 0.10);
+                
+            }
+
+            #grid_3{
+                background: rgba(87, 118, 57, 0.10);
+
+
+            }
+
+            #grid_4{
+                background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+            }
+
+            /* Comment Section */
+            #comments{
+                background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+            }
+
+            #comment_container{
+                width: 95%;
+                margin: 0 auto;
+            }
+
+            /* #comment_right{
+                width: 40%;
+            } */
+/* main end */
+        

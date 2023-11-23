@@ -15,12 +15,6 @@
 
     /* Banner Section */
         /* rating section */
-        #relative{
-            position: relative;
-            bottom:6rem;
-            left:1rem;
-            border-radius: 8px;
-        }
         #content h4{
                 font-weight: 800;
             }
@@ -76,8 +70,10 @@
                 margin: 0 auto;
             }
 
-            /* #comment_right{
-                width: 40%;
-            } */
+            #comment_right .absolute{
+                border: 8px solid white;
+                border-radius: 100%;
+                background-color: #D9D9D9;
+            }
 /* main end */
         
